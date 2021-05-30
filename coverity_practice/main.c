@@ -8,7 +8,16 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
+    
+    int len = 100;
+    int x[len];
+    int n;
+    
+    for (n = len; n >= 0; n--)
+    {
+        x[n] = 0;
+    }
+    
     printf("Hello, World!\n");
     return 0;
 }
